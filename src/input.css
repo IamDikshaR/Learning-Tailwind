@@ -6,4 +6,10 @@
     .section-min-height{
         min-height:calc(100vh-68px)
     }
+    .inter{
+        font-family: Inter
+    }
+    .outfit{
+        font-family: Outfit
+    }
 }
