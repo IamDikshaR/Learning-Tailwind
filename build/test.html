@@ -48,8 +48,8 @@
     <div class="m-10">
         <h3 class="inter text-3xl font-bold">Wonder - The space city - Place to visit</h3>
     </div>
-    <section id="floating">
-        <div class="mx-6 text-slate-500 md:gap-6 md:justify-start md:items-center md:flex-row flex flex-col">
+    <section id="floating" class="flex flex-col justify-between sm:flex-row">
+        <div class="mx-6 text-slate-500 self-start md:gap-6 md:justify-start md:items-center md:flex-row flex flex-col">
             <div class="flex items-center">
                 <i class="mr-2 material-symbols-outlined">schedule</i>
                 <h5 class="outfit text-xl">3 days - 4 nights</h5>
@@ -74,43 +74,93 @@
             </div>
         </div>
     </section>
-    <section class="m-10 grid grid-cols-10 grid-rows-6 gap-4 w-2/3">
-        <div id="one" class="p-2 flex col-span-4 row-span-full bg-slate-500 rounded-3xl justify-center items-end gap-1">
-            <p class="rounded-full text-xs text-center bg-white text-black w-4 h-4">1</p>
-            <h3 class="text-white inter text-xs">Space bay view from the colony</h3> 
+    <section id="imgAndOffer" class="flex flex-col justify-between mx-2 my-4 md:flex-row">
+        <section class="grid grid-cols-9 grid-rows-6 gap-4 m-4 md:w-2/3">
+            <div id="one" class="p-2 flex col-span-5 row-span-full bg-slate-500 rounded-3xl justify-center items-end gap-1">
+                <p class="rounded-full text-xs text-center bg-white text-black w-4 h-4">1</p>
+                <h3 class="text-white inter text-xs">Space bay view from the colony</h3> 
+            </div>
+            <div id="two" class="flex justify-center items-end p-2 col-span-1 row-span-full bg-slate-500 rounded-3xl">
+                <p class="rounded-full text-xs text-center bg-white text-black w-4 h-4">2</p>
+            </div>
+            <div id="three" class="flex justify-center items-end p-2 col-span-1 row-span-full bg-slate-500 rounded-3xl">
+                <p class="rounded-full text-xs text-center bg-white text-black w-4 h-4">3</p>
+            </div>
+            <div id="four" class="flex justify-center items-end p-2 col-span-1 row-span-full bg-slate-500 rounded-3xl">
+                <p class="rounded-full text-xs text-center bg-white text-black w-4 h-4">4</p>
+            </div>
+            <div id="five" class="flex justify-center items-end p-2 col-span-1 row-span-full bg-slate-500 rounded-3xl">
+                <p class="rounded-full text-xs text-center bg-white text-black w-4 h-4">5</p>
+            </div>
+        </section>    
+        <section class="border-2 border-sky-400 rounded-xl flex flex-col m-4 md:w-1/3">
+            <p class=" self-end text-md bg-sky-400 rounded-bl-lg rounded-tr-lg p-2 text-align:right text-white">OFFER CLOSE</p>
+            <h3 class="outfit ml-2 mt-2 text-lg self-start">3 DAYS - 4 NIGHTS</h3>
+            <h3 class="outfit ml-2 mt-2 text-lg self-start font-bold">Wonder - The space city - Place to visit</h3>
+            <h3 class="outfit ml-2 mt-2 text-md self-start">⭐ 526 Overview Ratings</h3>
+            <h3 class="outfit ml-3 mt-1 text-md self-start">3 Slots Available</h3>
+            <section class="my-4 mx-4 text-lg outfit text-slate-500 flex flex-row justify-between">
+                <p class="self-start">$<span class="font-bold text-black">428</span>USD</p>
+                <p class="self-end">Includes GST $<span class="font-bold text-black">432</span></p>    
+            </section>
+            
+            <button class="outfit my-4 mx-2 py-3 bg-sky-400 rounded-3xl text-white self-strech">Pre-Book Now</button>
+            <h3 class="outfit ml-3 text-md self-start">Special offer</h3>
+            <h3 class="outfit ml-3 my-1 text-md self-start text-sky-400">Save 15% on every booking</h3> 
+    </section>
+    </section>
+    <nav class="m-16 flex flex-col inter text-md gap-6 justify-between md:flex-row w-3/5" aria-label="section nav">
+        <div class="flex gap-10">
+            <p class="text-sky-400">About</p>
+            <p>Similar places</p>
+            <p>More</p>
         </div>
-        <div id="two" class="flex justify-center items-end p-2 col-span-1 row-span-full bg-slate-500 rounded-3xl">
-            <p class="rounded-full text-xs text-center bg-white text-black w-4 h-4">2</p>
+        <div class="flex items-center">
+            <i class="mr-2 material-symbols-outlined ">grid_view</i>
+            <p>View all Photos</p>
         </div>
-        <div id="three" class="flex justify-center items-end p-2 col-span-1 row-span-full bg-slate-500 rounded-3xl">
-            <p class="rounded-full text-xs text-center bg-white text-black w-4 h-4">3</p>
+    </nav>
+    <section class="mx-6 flex flex-wrap inter md:w-2/3">
+        <div class="flex flex-col p-4 md:w-1/2">
+            <div class="flex gap-1 text-black">
+            <i class="mr-2 material-symbols-outlined ">calendar_today</i>
+            <h3 class="text-lg italic font-bold">Travel Style</h3>
+            </div>
+            <div>
+                <p class="text-lg text-slate-500">Experts have suggested the actual boundary between Earth and space lies anywhere from a mere 18.5 miles (30km) above the surface to more than a million miles (1.6 million km) away.
+                </p>
+            </div>
         </div>
-        <div id="four" class="flex justify-center items-end p-2 col-span-1 row-span-full bg-slate-500 rounded-3xl">
-            <p class="rounded-full text-xs text-center bg-white text-black w-4 h-4">4</p>
+        <div class="flex flex-col p-4 md:w-1/2">
+            <div class="flex gap-1 text-black">
+            <i class="mr-2 material-symbols-outlined ">inventory_2</i>
+            <h3 class="text-lg italic font-bold">Surface</h3>
+            </div>
+            <div>
+                <p class="text-lg text-slate-500">Provisional definition. A surface in space is a surface (X, TX) where X is a subset of 3 and TX is the subspace topology on X inherited from the Euclidean topology T on 3
+                </p>
+            </div>
         </div>
-        <div id="five" class="flex justify-center items-end p-2 col-span-1 row-span-full bg-slate-500 rounded-3xl">
-            <p class="rounded-full text-xs text-center bg-white text-black w-4 h-4">5</p>
+        <div class="flex flex-col p-4 md:w-1/2">
+            <div class="flex gap-1 text-black">
+            <i class="mr-2 material-symbols-outlined ">view_in_ar</i>
+            <h3 class="text-lg italic font-bold">Allowed Species</h3>
+            </div>
+            <div>
+                <p class="text-lg text-slate-500">A shallow drawer near the stove or wherever you prep food is one of the best places to store spices in the kitchen. That's because they're easy to access even if your hands are busy with food prep.
+                </p>
+            </div>
         </div>
-        <div id="extra" class="flex justify-center items-end p-2 col-span-1 ">
+        <div class="flex flex-col p-4 md:w-1/2">
+            <div class="flex gap-1 text-black">
+            <i class="mr-2 material-symbols-outlined ">photo_camera</i>
+            <h3 class="text-lg italic font-bold">Pictures</h3>
+            </div>
+            <div>
+                <p class="text-lg text-slate-500">Provisional definition. A surface in space is a surface (X, TX) where X is a subset of 3 and TX is the subspace topology on X inherited from the Euclidean topology T on 3.
+                </p>
+            </div>
         </div>
-    </section>    
-    <section class="border-2 border-sky-400 rounded-xl w-1/3 m-2 flex flex-col">
-        <p class=" self-end text-md bg-sky-400 rounded-bl-lg rounded-tr-lg p-2 text-align:right text-white">OFFER CLOSE</p>
-        <h3 class="outfit ml-2 mt-2 text-lg self-start">3 DAYS - 4 NIGHTS</h3>
-        <h3 class="outfit ml-2 mt-2 text-lg self-start font-bold">Wonder - The space city - Place to visit</h3>
-        <h3 class="outfit ml-2 mt-2 text-md self-start">⭐ 526 Overview Ratings</h3>
-        <h3 class="outfit ml-3 mt-1 text-md self-start">3 Slots Available</h3>
-        <section class="my-4 mx-4 text-lg outfit text-slate-500 flex flex-row justify-between">
-            <p class="self-start">$<span class="font-bold text-black">428</span>USD</p>
-            <p class="self-end">Includes GST $<span class="font-bold text-black">432</span></p>    
-        </section>
-        
-        <button class="outfit my-4 mx-2 py-3 bg-sky-400 rounded-3xl text-white self-strech">Pre-Book Now</button>
-        <h3 class="outfit ml-3 text-md self-start">Special offer</h3>
-        <h3 class="outfit ml-3 my-1 text-md self-start text-sky-400">Save 15% on every booking</h3> 
-
-
-
     </section>
     <!-- <footer class="text-center clear-both">
         <p>This page was made referencing a template and intends no copyright infringment. Used to practice tailwind.</p>
