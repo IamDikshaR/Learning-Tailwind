@@ -12,4 +12,8 @@
     .outfit{
         font-family: Outfit
     }
+
+    .accordion .container .answer{
+        display:block;
+    }
 }
