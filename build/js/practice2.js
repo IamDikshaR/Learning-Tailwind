@@ -17,6 +17,11 @@ for (let i=0; i<btn.length; i++){
 for (let i=0; i<qs.length; i++){
     qs[i].addEventListener('click', function(){
         ans[i].style.display ='block';
+        btn[i].style.transform = "rotate(180deg)";
+        qs[i].addEventListener('click', function(){
+            ans[i].style.display = 'none';
+            // btn[i].style.transform = "rotate(180deg)";
+        })
     })
 }
 
