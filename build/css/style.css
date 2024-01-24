@@ -685,6 +685,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -715,10 +719,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .block {
@@ -777,14 +777,6 @@ video {
   width: 100%;
 }
 
-.w-1\/3 {
-  width: 33.333333%;
-}
-
-.w-screen {
-  width: 100vw;
-}
-
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -795,6 +787,10 @@ video {
 
 .origin-top {
   transform-origin: top;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @keyframes open-menu {
